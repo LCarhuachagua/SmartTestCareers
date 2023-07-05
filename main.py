@@ -20,8 +20,8 @@ def index():
 def welcome_chat(name:str):
     return {"message": f"Bienvenido {name}, a tu asesor personalizado para conocer tu perfil vocacional. ¡Empecemos!"}
 
-@app.post("/answer-to-question")
+"""@app.post("/answer-to-question")
 def answer_question(questionUser:str):
     chatBotAnswer = answerQuestion(questionUser)
-    return {"message": f"Tu respuesta fue {chatBotAnswer}"}
+    return {"message": f"Tu respuesta fue {chatBotAnswer}"}"""
 

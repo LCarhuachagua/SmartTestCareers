@@ -2,3 +2,4 @@ __pycache__
 stc-env
 credencialOpenai.txt
 log.csv
+data.xlsx
